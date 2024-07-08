@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c64_blue"
+    tools:context=".controller.MainActivity">
+
+    <TextView
+        android:id="@+id/balanceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textColor="@color/c64_white"
+        android:textSize="@dimen/font_size_very_large"
+        />
+
+    <Button
+        android:id="@+id/settleAccountButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/balanceTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@color/c64_red"
+        android:text="@string/settle_account"
+        />
+
+    <Button
+        android:id="@+id/bookAnyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settleAccountButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@color/c64_lightBlue"
+        android:text="@string/custom_transaction"
+        android:textColor="@color/c64_white"
+        />
+
+    <LinearLayout
+        android:id="@+id/templatesLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/bookAnyButton"
+        android:layout_marginTop="0dp"
+        />
+
+    <View
+        android:id="@+id/dividerAboveAllTransactionsView"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/c64_grey"
+        android:layout_below="@id/templatesLinearLayout"
+        android:layout_marginTop="12dp"
+        />
+
+    <Button
+        android:id="@+id/viewAllTransactionsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dividerAboveAllTransactionsView"
+        android:layout_centerHorizontal="true"
+        android:text="@string/view_all_transactions"
+        android:background="@color/c64_lightGrey"
+        android:textColor="@color/c64_blue"
+        android:padding="4dp"
+        android:textSize="@dimen/font_size_small"
+        />
+
+    <View
+        android:id="@+id/dividerBelowAllTransactionsView"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/c64_grey"
+        android:layout_below="@id/viewAllTransactionsButton"
+        />
+
+    <ScrollView
+        android:id="@+id/transactionsScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dividerBelowAllTransactionsView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:id="@+id/transactionsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/c64_cyan"
+            android:textSize="@dimen/font_size_tiny"
+            />
+    </ScrollView>
+
+</RelativeLayout>

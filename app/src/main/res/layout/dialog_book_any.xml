@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/bookAnyAmountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="amount"
+        android:inputType="numberSigned|numberDecimal"
+        android:hint="@string/enter_amount">
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/bookAnyDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookAnyAmountEditText"
+        android:autofillHints="description"
+        android:inputType="textCapCharacters"
+        android:textSize="@dimen/font_size_smaller"
+        android:hint="@string/enter_description_optional"
+        />
+
+    <CheckBox
+        android:id="@+id/saveAsTemplateCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookAnyDescriptionEditText"
+        android:text="@string/save_as_template"
+        android:textSize="@dimen/font_size_almost_tiny"
+        android:textAllCaps="false"
+        android:textColor="@color/c64_lightBlue"
+        android:button="@drawable/custom_checkbox"
+        />
+
+    <Button
+        android:id="@+id/bookAnyBookButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/saveAsTemplateCheckBox"
+        android:layout_alignStart="@id/saveAsTemplateCheckBox"
+        android:layout_marginTop="16dp"
+        android:text="@string/book"
+        />
+
+</RelativeLayout>

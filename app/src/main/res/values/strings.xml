@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Balance Tracker</string>
+    <string name="enter_amount">Enter amount</string>
+    <string name="enter_description_optional">(opt) What for?</string>
+    <string name="save_as_template">Save as template</string>
+    <string name="book">Book</string>
+    <string name="custom_transaction">Custom transaction</string>
+    <string name="toast_booked_amount">Booked %1$s</string>
+    <string name="toast_booked_amount_with_description">Booked %1$s for %2$s.</string>
+    <string name="toast_balance_settled">Account has been settled.</string>
+    <string name="transaction_log_amount">[%3$s] %1$s</string>
+    <string name="transaction_log_amount_with_description">[%3$s] %1$s on %2$s</string>
+    <string name="view_all_transactions">View all transactions</string>
+    <string name="settle_account">Settle Account</string>
+    <string name="settle_account_message">Are you sure you want to reset the balance and remove the transactions?</string>
+    <string name="affirmative">Yes</string>
+    <string name="negative">No</string>
+    <string name="toast_canceled_amount">Canceled %1$s</string>
+    <string name="toast_canceled_amount_with_description">Canceled %1$s for %2$s.</string>
+    <string name="delete">Delete</string>
+    <string name="toast_template_deleted">Template %2$s (%1$s) deleted.</string>
+</resources>

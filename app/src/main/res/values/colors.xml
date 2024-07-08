@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="c64_black">#FF000000</color>
+    <color name="c64_white">#FFFFFFFF</color>
+    <color name="c64_red">#FF880000</color>
+    <color name="c64_cyan">#FFAAFFEE</color>
+    <color name="c64_purple">#FFCC44CC</color>
+    <color name="c64_green">#FF00CC55</color>
+    <color name="c64_blue">#FF0000AA</color>
+    <color name="c64_yellow">#FFEEEE77</color>
+    <color name="c64_orange">#FFDD8855</color>
+    <color name="c64_brown">#FF664400</color>
+    <color name="c64_lightRed">#FFFF7777</color>
+    <color name="c64_darkGrey">#FF333333</color>
+    <color name="c64_grey">#FF777777</color>
+    <color name="c64_lightGreen">#FFAAFF66</color>
+    <color name="c64_lightBlue">#FF0088FF</color>
+    <color name="c64_lightGrey">#FFBBBBBB</color>
+    <color name="c64_pseudo_darkGreen">#FF008833</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
